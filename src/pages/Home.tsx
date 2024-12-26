@@ -1,12 +1,12 @@
-import React from "react";
-import { UIStore } from "../Store";
+import React, { useEffect } from "react";
+import Banner from "../components/Banner";
 
 function Home() {
-  const uiStore = UIStore.useState();
   return (
     <>
-      <div>Home</div>
-      <div>{uiStore.message}</div>
+      <Banner />
+
+      {/* <div>{uiStore.message}</div> */}
     </>
   );
 }

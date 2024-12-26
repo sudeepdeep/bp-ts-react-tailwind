@@ -4,6 +4,7 @@ import App from "./App";
 import { ToastContainer } from "react-toastify";
 import Helmet from "./components/Helmet";
 import { QueryClient, QueryClientProvider } from "react-query";
+import "react-toastify/dist/ReactToastify.css";
 
 const queryClient = new QueryClient();
 
